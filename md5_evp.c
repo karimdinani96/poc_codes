@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <openssl/evp.h>
 #include <string.h>
+/*
+ * Compile using gcc md5_evp.c -lcrypto -o md5sum
+ */
 
 int main(int argc, char *argv[])
 {
